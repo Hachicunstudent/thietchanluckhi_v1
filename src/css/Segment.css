@@ -1,0 +1,44 @@
+/* Segment.css */
+.segment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .loading-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .segment-button, .next-button {
+    margin: 10px 0;
+  }
+  
+  .canvas-container {
+    margin: 20px 0;
+    width: 100%; /* Điều chỉnh width để phù hợp với kích thước màn hình */
+
+    border: 1px solid #ddd; /* Thêm viền nếu cần */
+    background: white; /* Nền trắng để hình ảnh nổi bật hơn */
+    padding: 10px; /* Thêm padding để tạo khoảng cách */
+  }
+  
+  .image-canvas {
+    width: 100%; /* Điều chỉnh width để phù hợp với kích thước màn hình */
+    max-width: 640px; /* Giới hạn kích thước tối đa nếu cần */
+    height: auto; /* Cho phép chiều cao thay đổi dựa trên chiều rộng */
+  }
+  
+  /* Điều chỉnh cho màn hình nhỏ */
+  @media (max-width: 768px) {
+    .image-canvas {
+      max-width: 100%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+      height: auto; /* Điều chỉnh chiều cao một cách tự nhiên */
+    }
+  
+    .segment-container {
+      padding: 10px; /* Thêm padding để không sát lề quá */
+    }
+  }
+  

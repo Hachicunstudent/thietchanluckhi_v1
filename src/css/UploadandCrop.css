@@ -1,0 +1,51 @@
+/* UploadandCrop.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Điều này ngăn các phần tử vượt quá chiều rộng do padding */
+  }
+  
+.upload-and-crop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .cropper-container {
+    width: 100%; /* Không vượt quá màn hình */
+    max-width: 100%; /* Không vượt quá màn hình */
+    padding: 10px; /* Không có padding */
+    display: flex; /* Enables flex context for its direct children */
+    justify-content: center; /* Horizontally centers child elements */
+    align-items: center; /* Vertically centers child elements */
+  }  
+  .cropper-container {
+    padding: 10px;
+    background: white; /* Nếu bạn muốn làm nổi bật container Cropper */
+  }
+    
+  .preview-container img {
+    max-width: 100%; /* Hoặc một giá trị nhỏ hơn nếu cần */
+    height: auto;
+    margin: 10px auto; /* Tạo một khoảng cách trên và dưới */
+    display: block;
+    border: 1px solid #ddd; /* Nếu bạn muốn có viền xung quanh hình ảnh */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tạo bóng đổ nhẹ */
+    padding: 10px; /* Thêm padding nếu bạn muốn không gian xung quanh hình ảnh */
+    background: white; /* Nền trắng để tạo khoảng cách nếu hình ảnh có background trong suốt */
+  }
+      
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cropper-container {
+      /* Có thể điều chỉnh padding hoặc margin nếu cần */
+      padding:5px; /* Chỉ thêm padding nếu cần */
+    }
+    .preview-container {
+      /* Có thể điều chỉnh padding hoặc margin nếu cần */
+      padding:5px; /* Chỉ thêm padding nếu cần */
+    }
+  }
+  

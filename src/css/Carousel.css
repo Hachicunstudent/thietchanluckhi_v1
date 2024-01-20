@@ -1,0 +1,12 @@
+/* Carousel.css */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa hai hình ảnh */
+}
+
+.carousel-image {
+    max-width: 100px; /* Kích thước nhỏ */
+    height: auto; /* Giữ tỷ lệ của hình ảnh */
+}

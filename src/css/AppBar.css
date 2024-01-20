@@ -1,0 +1,22 @@
+.app-bar {
+    text-align: center;
+    background-color: #5aab5d; /* Màu nền của AppBar */
+    color: white; /* Màu chữ */
+    padding: 10px 0; /* Padding trên và dưới cho AppBar */
+  }
+  
+  .app-bar h1 {
+    margin: 0;
+    font-size: 22px; /* Kích thước font cho tiêu đề */
+  }
+  
+  .app-bar h2 {
+    margin: 0;
+    font-size: 20px; /* Kích thước font cho phụ đề */
+  }
+  
+  .app-bar p {
+    margin: 0;
+    font-size: 14px; /* Kích thước font cho văn bản */
+  }
+  

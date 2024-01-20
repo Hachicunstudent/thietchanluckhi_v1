@@ -1,0 +1,49 @@
+body {
+    background-color: var(--light-background); /* Sử dụng biến màu xanh nhạt đã định nghĩa */
+  }
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+  }
+  
+  .login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .ant-form-item {
+    margin-bottom: 16px; /* Điều chỉnh khoảng cách nếu cần */
+  }
+  
+  .login-form .ant-input-affix-wrapper .ant-input-prefix {
+    color: rgba(0,0,0,.25);
+  }
+  
+  .login-footer {
+    text-align: center;
+  }
+  
+  .link-success {
+    color: var(--primary-color); /* Sử dụng màu chủ đạo đã định nghĩa trong App.css */
+  }
+  .login-form-button {
+    background-color: var(--primary-color); /* Sử dụng biến màu chủ đạo */
+    border-color: var(--primary-color);
+  }
+  
+    .login-form-button:hover {
+        background-color: var(--primary-color-hover); /* Sử dụng biến màu chủ đạo khi hover */
+        border-color: var(--primary-color-hover);
+    }
+  

@@ -1,0 +1,58 @@
+{
+  "name": "thietchancra2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.16.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.13.1",
+    "autoprefixer": "^10.4.17",
+    "caman": "^3.2.1",
+    "cropperjs": "^1.6.1",
+    "croppie": "^2.6.5",
+    "firebase": "^10.7.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "postcss": "^8.4.33",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-markdown": "^9.0.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.21.2",
+    "react-scripts": "5.0.1",
+    "react-tabs": "^6.0.2",
+    "remark-gfm": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

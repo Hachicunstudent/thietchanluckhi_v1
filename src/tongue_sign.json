@@ -1,0 +1,869 @@
+{
+"Toàn bộ":{
+        "Chất lưỡi":{
+            "đặc tính":{
+                "Bình thường":{
+                    "mô tả": "Lưỡi bình thường màu đỏ nhạt",
+                    "hình ảnh": "/tongueImg/chatluoi_binhthuong.png",
+                    "chẩn đoán":" "
+                    
+                },
+                "Nhợt":{    
+                    "mô tả": "Chất lưỡi nhợt",
+                    "hình ảnh": "/tongueImg/chatluoi_nhot_kho.png",
+                    "chẩn đoán":"Dương hư/khí hư( nhợt ướt) hoặc Huyết hư( nhợt khô)"
+
+                },
+                "Đỏ":{
+                    "mô tả": "Chất lưỡi đỏ",
+                    "hình ảnh": "/tongueImg/chatluoi_do.png",
+                    "chẩn đoán":"Nhiệt( Thực nhiệt hoặc Hư nhiệt). Nếu có rêu là thực nhiệt, không rêu hoặc rêu không gốc là Hư nhiệt"
+                
+                },
+                "Tím":{
+                    "mô tả": "Chất lưỡi tím",
+                    "hình ảnh": "/tongueImg/chatluoi_tim.jpg",
+                    "chẩn đoán":"Huyết ứ"
+                
+                }
+
+            },
+            "type":"radio"
+        },
+        "Hình dáng":{
+            "đặc tính":{
+                "Lưỡi mỏng":{
+                    "mô tả": "Chiều dày của lưỡi mỏng,đây là loại lưỡi ít phổ biến",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoimong.png",
+                    "chẩn đoán":"Huyết hư, Âm hư"
+                },
+                "Lưỡi sưng nề":{
+                    "mô tả": "Còn gọi là lưỡi bệu, chiều dày lớn, nên xem từ phía bên",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoisungne.png",
+                    "chẩn đoán":"Đờm thấp tích tụ"
+                },
+                "Lưỡi mềm nhàu nát":{
+                    "mô tả": "Lưỡi mềm nhão, dường như nhàu nát",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_nhaunat.png",
+                    "chẩn đoán":"Âm hư, thiếu Tân Dịch trầm trọng"
+                },
+                "Lưỡi run":{
+                    "mô tả": "Khi đẩy lưỡi ra khỏi miệng, lưỡi run với biên độ nhỏ, dường như rất yếu",
+                    "hình ảnh": "",
+                    "chẩn đoán":"Tỳ khí/ Tỳ dương hư"
+                },
+                "Lưỡi vết hằn răng":{
+                    "mô tả": "Còn gọi là lưỡi vỏ sò, ở rìa lưỡi có vết răng hằn lên",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_hanrang.png",
+                    "chẩn đoán":"Tỳ khí/ Tỳ dương hư mạn tính"
+                },
+                "Lưỡi động":{
+                    "mô tả": "Lưỡi rung với biên độ lớn mà bệnh nhân không kiểm soát được",
+                    "hình ảnh": null,
+                    "chẩn đoán":"Nội phong"
+                },
+                "Lưỡi cứng":{
+                    "mô tả": "Lưỡi cứng, không mềm mại, linh hoạt",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoicung.png",
+                    "chẩn đoán":"Nội phong"
+                },
+                "Lưỡi dài":{
+                    "mô tả": "Hiếm gặp",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoidai.jpg",
+                    "chẩn đoán":"Nhiệt chứng"
+                },
+                "Lưỡi ngắn":{
+                    "mô tả": "Bệnh nhân khó khăn khi đẩy lưỡi ra khỏi miệng",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoingan.png",
+                    "chẩn đoán":"Dưng hư nội hàn(nếu chất lưỡi nhợt ướt) hoặc Âm hư nội nhiệt(nếu chất lưỡi đỏ không rêu hoặc rêu không gốc)"
+                }
+            
+        },
+        "type":"checkbox"
+    },
+
+    "Rêu lưỡi":{
+        "đặc tính":{
+            "Rêu bình thường":{
+                "mô tả": "Rêu lưỡi bình thường màu trắng, mỏng để nhìn thấy chất lưỡi phía sau nó.Nó dày ở  gốc lưỡi, mỏng ở đầu lưỡi và không kéo dài đến các viền và cạnh của lưỡi",
+                "hình ảnh": "/tongueImg/reuluoi_binhthuong.png",
+                "chẩn đoán":null
+                
+            },
+            "Rêu dày":{
+                "mô tả": "Lớp phủ dày che mất chất lưỡi",
+                "hình ảnh": "/tongueImg/reuluoi_day.png",
+                "chẩn đoán":"Thực chứng"
+                
+            },
+            "Rêu mỏng":{
+                "mô tả": "Lớp phủ mỏng dễ dàng nhìn thấy chất lưỡi",
+                "hình ảnh": "/tongueImg/reuluoi_mong.png",
+                "chẩn đoán":"Hư chứng"
+            
+            },
+            "Không rêu":{
+                "mô tả": "Lưỡi không có rêu",
+                "hình ảnh": "/tongueImg/reuluoi_khongreu.png",
+                "chẩn đoán":"Vị Khí suy kiệt"
+                
+            },
+            "Có gốc":{
+                "mô tả": "Lớp phủ dường như có chân, có gốc mọc từ lưỡi lên",
+                "hình ảnh": "",
+                "chẩn đoán":"Vị Khí vẫn còn"
+                
+            },
+            "Không gốc":{
+                "mô tả": "Lớp phủ dường như được rải lên",
+                "hình ảnh": "/tongueImg/reuluoi_khonggoc.png",
+                "chẩn đoán":"Vị khí suy kiệt"
+                
+            },
+            "Rêu vàng":
+            {
+                "mô tả": "Lưỡi rêu vàng",
+                "hình ảnh": "/tongueImg/reuluoi_reuvang.png",
+                "chẩn đoán":"Nhiệt chứng"
+                
+            },
+            "Rêu trắng":
+            {
+                "mô tả":"Lưỡi rêu trắng",
+                "hình ảnh": "/tongueImg/reuluoi_trang.jpg",
+                "chẩn đoán":"Hàn chứng"
+                
+            },
+            "Rêu xám":
+            {
+                "mô tả":null,
+                "hình ảnh": "/tongueImg/reuluoi-xam.png",
+                "chẩn đoán":" Nhiễm độc"
+                
+            },
+            
+            "Rêu dính":{
+                "mô tả": "Rêu dính nhờn, nhưng thô các nhủ riêng lẻ vẫn có thể nhìn thấy nhỉ",
+                "hình ảnh": "/tongueImg/reuluoidinh.png",
+                "chẩn đoán":"Đờm thấp"
+                
+            },
+            "Rêu trơn":{
+                "mô tả": "Rêu lưỡi trơn nhờn không thể phân biệt các nhú",
+                "hình ảnh": "/tongueImg/reuluoitron.png",
+                "chẩn đoán":"Đờm thấp nhưng thấp chiếm ưu thế"
+                
+            },
+            "Rêu mốc":{
+                "mô tả": "Lớp phủ mốc trông dày, loang lổ và vụn; Nó có thể được mô tả như phô mai.",
+                "hình ảnh": "/tongueImg/reuluoimoc.png",
+                "chẩn đoán":"Đờm thấp trên nền Vị âm hư hỏa vượng"
+                
+            
+            }
+        },
+        "type":"checkbox"
+    },
+    "Độ ẩm":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": "Lưỡi bình thường sẽ hơi ẩm",
+                "hình ảnh": "",
+                "chẩn đoán":null
+                
+            },
+            "Khô":{
+                "mô tả": null,
+                "hình ảnh": "/tongueImg/chatluoi_nhot_kho.png",
+                "chẩn đoán":"Chứng tỏ Dương khí không vận hóa được Dịch sinh ra tích tụ dịch và đờm thấp"
+                
+            },
+            "Ẩm":{
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "/tongueImg/chatluoi_nhot_uot.png",
+                "chẩn đoán":"Chứng tỏ Dương khí không vận hóa được Dịch sinh ra tích tụ dịch và đờm thấp"
+                
+            }
+        },
+        "type":"radio"
+      
+    }
+
+},
+"Tâm ":{
+"Chất lưỡi":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+                
+            },
+            "Nhợt":{    
+                "mô tả": null,
+                "hình ảnh": null,
+                "chẩn đoán":"Tâm khí hư/ Tâm huyết hư"
+
+            },
+            "Đỏ":{
+                "mô tả": "Đầu lưỡi đỏ",
+                "hình ảnh": "/tongueImg/chatluoi_do_dauluoi.png",
+                "chẩn đoán":"Tâm hỏa vượng"
+            
+            },
+            "Tím":{
+                "mô tả": "Đầu lưỡi tím",
+                "hình ảnh": "/tongueImg/chatluoi_tim_dauluoi.png",
+                "chẩn đoán":"Tâm huyết ứ trệ"
+            
+            }
+
+        },
+        "type":"radio"
+    },
+"Hình dáng":{
+        "đặc tính":{
+            "Sưng nề":{
+                "mô tả": "Sưng nề đầu lưỡi",
+                "hình ảnh": "/tongueImg/hinhdang_dauluoi_sungne.png",
+                "chẩn đoán":"Tâm hỏa vượng"
+            },
+            "Vết nứt":{
+                "mô tả": "Vết nứt đường giữa lưỡi",
+                "hình ảnh": "/tongueImg/hinhdang_tam_vetnut.png",
+                "chẩn đoán":"Bệnh ở Tâm "
+            }},
+        "type":"checkbox"
+    
+},
+
+"Rêu lưỡi":{
+    "đặc tính":{
+        "Có rêu":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không rêu":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Có gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu vàng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trắng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu xám":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu dính":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trơn":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu mốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            }
+        
+            
+    },
+    "type":"No"
+
+},
+"Độ ẩm":{
+    "đặc tính":{
+        "Khô":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Ẩm":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        }
+    },
+    "type":"No"
+  
+}
+
+},
+"Phế ":{
+    "Chất lưỡi":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": null,
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+                
+            },
+            "Nhợt":{    
+                "mô tả": null,
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+
+            },
+            "Đỏ":{
+                "mô tả": "Vùng Phế đỏ, hoặc nốt đỏ, chấm đỏ",
+                "hình ảnh": "./tongueImg/chatluoi_do_phe.png",
+                "chẩn đoán":"Phế nhiệt, thực nhiệt nếu có rêu, hư nhiệt nếu không rêu hoặc rêu không gốc"
+            
+            },
+            "Tím":{
+                "mô tả": "Tím ở vùng Phế",
+                "hình ảnh": "",
+                "chẩn đoán": null
+            
+            }
+
+        },
+    "type":"radio"
+    },
+    "Hình dáng":{
+        "đặc tính":{
+            "Sưng nề":{
+                "mô tả": "Sưng nề vùng ngực- Phế",
+                "hình ảnh": "/tongueImg/hinhdang_phe_sungne.png",
+                "chẩn đoán":"Có u cục ở vùng ngực hoặc Phổi"
+            },
+            "Vết nứt":{
+                "mô tả": "Vết nứt đặc trưng",
+                "hình ảnh": "/tongueImg/hinhdang_phe_vetnut.png",
+                "chẩn đoán":"Đã từng mắc bệnh hô hập nặng hoặc mạn tính"
+            }},
+        "type":"checkbox"
+    },
+
+"Rêu lưỡi":{
+    "đặc tính":{
+        "Có rêu":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không rêu":{
+            "mô tả": "Vùng Phế không có rêu",
+            "hình ảnh": "",
+            "chẩn đoán":"Phế Âm hư"
+            
+        },
+        "Có gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không gốc":{
+            "mô tả": null,
+            "hình ảnh": "",
+            "chẩn đoán":"Phế Âm hư"
+            
+        },
+        "Rêu vàng":
+        {
+            "mô tả": null,
+            "hình ảnh": "",
+            "chẩn đoán":"Phế thực nhiệt"
+            
+        },
+        "Rêu trắng":
+        {
+            "mô tả": null,
+            "hình ảnh": "",
+            "chẩn đoán":"Phế hàn"
+            
+        },
+        "Rêu xám":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu dính":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trơn":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu mốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            }
+        
+            
+    },
+    "type":"checkbox"
+},
+"Độ ẩm":{
+    "đặc tính":{
+        "Khô":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Ẩm":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        }
+    },
+    "type":"No"
+  
+}
+
+},
+"Can Đởm":{
+    "Chất lưỡi":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+                
+            },
+            "Nhợt":{    
+                "mô tả": "Rìa lưỡi nhợt hơn so với các phần khác",
+                "hình ảnh": "/tongueImg/chatluoi_nhot_rialuoi.png",
+                "chẩn đoán":"Can huyết hư"
+
+            },
+            "Đỏ":{
+                "mô tả": "Rìa lưỡi đỏ",
+                "hình ảnh": "/tongueImg/chatluoi_do_ria.png",
+                "chẩn đoán":"Can nhiệt, nếu không rêu là Hư nhiệt, nếu có rêu là Thực nhiệt"
+            
+            },
+            "Tím":{
+                "mô tả": "Rìa lưỡi có màu tím",
+                "hình ảnh": "/tongueImg/chatluoi_tim_ria.png",
+                "chẩn đoán":"Can huyết ứ trệ"
+            
+            }
+
+        },
+        "type":"radio"
+    },
+    "Hình dáng":{
+        "đặc tính":{
+            "sưng nề":{
+                "mô tả": "Sưng nề phần rìa lưỡi",
+                "hình ảnh": "/tongueImg/hinhdang_rialuoi_sungne.png",
+                "chẩn đoán":"Nếu kèm theo đỏ là Can hỏa vượng, nếu nhợt là Đờm thấp tích tụ ở Can"
+            },
+            "Vết nứt":{
+                "mô tả": "Lưỡi cứng toàn bộ",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+            }},
+        "type":"checkbox"
+    },
+
+"Rêu lưỡi":{
+    "đặc tính":{
+        "Có rêu":{
+            "mô tả": "Rêu phân bố như hình",
+            "hình ảnh": "/tongueImg/reuluoi_candom.png",
+            "chẩn đoán":"Bệnh lý Đởm"
+            
+        },
+        "Không rêu":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "",
+            "chẩn đoán":null
+            
+        },
+        "Có gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu vàng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trắng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu xám":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu dính":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trơn":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu mốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            }
+        
+            
+    },
+    "type":"radio"
+},
+"Độ ẩm":{
+    "đặc tính":{
+        "Khô":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Ẩm":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        }
+    },
+    "type":"No"
+  
+}
+
+},
+"Tỳ Vị ":{
+    "Chất lưỡi":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+                
+            },
+            "Nhợt":{    
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+
+            },
+            "Đỏ":{
+                "mô tả": "Trung tâm lưỡi đỏ",
+                "hình ảnh": "/tongueImg/chatluoi_do_trungtam.png",
+                "chẩn đoán":"Nếu có rêu là Vị thực nhiệt, nếu không rêu là Vị hư nhiệt"
+            
+            },
+            "Tím":{
+                "mô tả": "Trung tâm lưỡi tím",
+                "hình ảnh": "/tongueImg/chatluoi_tim_trungtam.png",
+                "chẩn đoán":"Vi huyết ứ"
+            
+            }
+
+        },
+        "type":"radio"
+    },
+    "Hình dáng":{
+        "đặc tính":{
+            "Sưng nề":{
+                "mô tả": "Lưỡi sưng nề cục bộ",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+            },
+            "Vết nứt":{
+                "mô tả": "Vết nứt không đều, vết nứt ngang, vết nứt trung tâm hoặc vết nứt ngang ở rìa",
+                "hình ảnh": "/tongueImg/hinhdang_trungtam_vetnut.png",
+                "chẩn đoán":"Vị khí hư, vết nứt ngang ở rìa là Tỳ khí hư"
+            }},
+        "type":"checkbox"
+    },
+
+"Rêu lưỡi":{
+    "đặc tính":{
+        "Có rêu":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không rêu":{
+            "mô tả": "Lưỡi không rêu",
+            "hình ảnh": "/tongueImg/reuluoi_khongreu.png",
+            "chẩn đoán":"Vị Khí suy kiệt"
+            
+        },
+        "Có gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "/tongueImg/reuluoi_khonggoc.png",
+            "chẩn đoán":"Vị Khí suy kiệt"
+            
+        },
+        "Rêu vàng":
+        {
+            "mô tả": "Rêu lưỡi vàng ở trung tâm",
+            "hình ảnh": "",
+            "chẩn đoán":"Vị nhiệt"
+            
+        },
+        "Rêu trắng":
+        {
+            "mô tả": "Rêu lưỡi trắng ở trung tâm",
+            "hình ảnh": "",
+            "chẩn đoán":"Vị hư hàn"
+            
+        },
+        "Rêu xám":
+        {
+            "mô tả": "Rêu lưỡi xám ở trung tâm",
+            "hình ảnh": "/tongueImg/reuluoi-xam.png",
+            "chẩn đoán":"Nhiễm độc dạ dày"
+            
+        },
+        "Rêu dính":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trơn":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu mốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            }
+        
+            
+    },
+    "type":"checkbox"
+},
+"Độ ẩm":{
+    "đặc tính":{
+        "Khô":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Ẩm":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        }
+    },
+    "type":"No"
+  
+}
+
+},
+"Thận Bàng Quang Ruột":{
+    "Chất lưỡi":{
+        "đặc tính":{
+            "Bình thường":{
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+                
+            },
+            "Nhợt":{    
+                "mô tả": "Lưỡi có màu đỏ nhạt",
+                "hình ảnh": "",
+                "chẩn đoán":null
+
+            },
+            "Đỏ":{
+                "mô tả": "Đỏ phần gốc lưỡi giữa hoặc hai bên",
+                "hình ảnh": "",
+                "chẩn đoán": "Viêm ruột hoặc bàng quang"
+            
+            },
+            "Tím":{
+                "mô tả": "Tím phần gốc lưỡi hoặc 2 bên gốc",
+                "hình ảnh": "",
+                "chẩn đoán":"Huyết ứ ở ruột hoặc Bàng Quang"
+            
+            }
+
+        },
+        "type":"radio"
+    },
+    "Hình dáng":{
+        "đặc tính":{
+            "Sưng nề":{
+                "mô tả": "Lưỡi sưng nề cục bộ",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+            },
+            "Vết nứt":{
+                "mô tả": "Lưỡi cứng toàn bộ",
+                "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+                "chẩn đoán":null
+            }},
+        "type":"checkbox"
+    },
+
+"Rêu lưỡi":{
+    "đặc tính":{
+        "Có rêu":{
+            "mô tả": "Gốc lưỡi có rêu hoặc rêu dày hơn các vùng khác",
+            "hình ảnh": "/tongueImg/reuluoi_gocluoi.png",
+            "chẩn đoán":"Thấp nhiệt hạ tiêu"
+            
+        },
+        "Không rêu":{
+            "mô tả": "Gốc lưỡi không rêu",
+            "hình ảnh": "",
+            "chẩn đoán":"Thận âm hư"
+            
+        },
+        "Có gốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Không gốc":{
+            "mô tả": null,
+            "hình ảnh": "",
+            "chẩn đoán":"Thận âm hư"
+            
+        },
+        "Rêu vàng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trắng":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu xám":
+        {
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu dính":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu trơn":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Rêu mốc":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            }
+        
+            
+    },
+    "type":"checkbox"
+},
+"Độ ẩm":{
+    "đặc tính":{
+        "Khô":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        },
+        "Ẩm":{
+            "mô tả": "Lưỡi có màu đỏ nhạt",
+            "hình ảnh": "https://i.imgur.com/1Z9z9QV.jpg",
+            "chẩn đoán":null
+            
+        }
+    },
+    "type":"No"
+  
+}}
+}
+

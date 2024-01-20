@@ -1,0 +1,67 @@
+/* Cập nhật màu sắc và font */
+:root {
+  --primary-color: #4CAF50; /* Blue */
+  --text-color: #333; /* Dark Grey for text */
+  --background-color: #d5e9db; /* White for background */
+  --light-background: #f0fdf4; /* Very light green */
+  --base-font-size: 18px; /* Tăng kích thước font cơ bản */
+  --mobile-padding: 5px; /* Padding nhỏ hơn cho di động */
+
+}
+
+html {
+  font-size: 18px; /* Hoặc bất kỳ kích thước nào bạn muốn */
+}
+
+
+body {
+  background-color: var(--light-background);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+  padding: var(--mobile-padding); /* Sử dụng biến mới cho padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.App-header {
+  background-color: var(--primary-color); /* Blue background */
+  color: white;
+}
+
+.App-link {
+  color: #f8f8f8; /* Lighter color for links */
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 480px) {
+  .app-container {
+      margin: 0 5px; /* Khoảng cách nhỏ so với cạnh điện thoại */
+  }
+/* Other responsive adjustments */
+}
+
+/* Modern and Clean Styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* Other card styling */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

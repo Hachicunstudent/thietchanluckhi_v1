@@ -1,0 +1,29 @@
+/* Upload.css */
+.upload-container {
+    margin: auto;
+    padding: 20px;
+    max-width: 480px;
+  }
+  
+  .upload-crop-section, .segment-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Điều chỉnh các styles dưới đây theo thiết kế của bạn */
+  .cropper-container {
+    margin-top: 10px;
+  }
+  
+  .preview-container, .loading-section, .canvas-container {
+    margin-top: 15px;
+    text-align: center; /* Giữ cho nội dung cân đối */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .upload-container {
+      padding: 10px;
+    }
+  
+  }
+  
