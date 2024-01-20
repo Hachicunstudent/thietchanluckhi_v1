@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Hachicunstudent/thietchanluckhi_v0.1/static/css/main.e069982a.css",
+    "main.js": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/main.5e4e657d.js",
+    "static/js/703.8f6a6bb7.chunk.js": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/703.8f6a6bb7.chunk.js",
+    "static/js/513.18f2aefa.chunk.js": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/513.18f2aefa.chunk.js",
+    "static/js/787.9ff985ea.chunk.js": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/787.9ff985ea.chunk.js",
+    "index.html": "/Hachicunstudent/thietchanluckhi_v0.1/index.html",
+    "main.e069982a.css.map": "/Hachicunstudent/thietchanluckhi_v0.1/static/css/main.e069982a.css.map",
+    "main.5e4e657d.js.map": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/main.5e4e657d.js.map",
+    "703.8f6a6bb7.chunk.js.map": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/703.8f6a6bb7.chunk.js.map",
+    "513.18f2aefa.chunk.js.map": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/513.18f2aefa.chunk.js.map",
+    "787.9ff985ea.chunk.js.map": "/Hachicunstudent/thietchanluckhi_v0.1/static/js/787.9ff985ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e069982a.css",
+    "static/js/main.5e4e657d.js"
+  ]
+}
