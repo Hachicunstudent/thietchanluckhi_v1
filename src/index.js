@@ -1,3 +1,4 @@
+//index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -14,3 +15,17 @@ root.render(
 
 reportWebVitals();
 
+// Đăng ký Service Worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+                // Đăng ký thành công
+                console.log('Service Worker registered: ', registration.scope);
+            })
+            .catch(registrationError => {
+                // Đăng ký thất bại
+                console.log('Service Worker registration failed: ', registrationError);
+            });
+    });
+}
