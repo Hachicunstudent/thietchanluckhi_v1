@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Hachicunstudent/static/css/main.e069982a.css",
+    "main.js": "/Hachicunstudent/static/js/main.9c0ad193.js",
+    "static/js/703.8f6a6bb7.chunk.js": "/Hachicunstudent/static/js/703.8f6a6bb7.chunk.js",
+    "static/js/513.18f2aefa.chunk.js": "/Hachicunstudent/static/js/513.18f2aefa.chunk.js",
+    "static/js/787.9ff985ea.chunk.js": "/Hachicunstudent/static/js/787.9ff985ea.chunk.js",
+    "index.html": "/Hachicunstudent/index.html",
+    "main.e069982a.css.map": "/Hachicunstudent/static/css/main.e069982a.css.map",
+    "main.9c0ad193.js.map": "/Hachicunstudent/static/js/main.9c0ad193.js.map",
+    "703.8f6a6bb7.chunk.js.map": "/Hachicunstudent/static/js/703.8f6a6bb7.chunk.js.map",
+    "513.18f2aefa.chunk.js.map": "/Hachicunstudent/static/js/513.18f2aefa.chunk.js.map",
+    "787.9ff985ea.chunk.js.map": "/Hachicunstudent/static/js/787.9ff985ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e069982a.css",
+    "static/js/main.9c0ad193.js"
+  ]
+}
