@@ -8,7 +8,7 @@ const urlsToCache = [
     // Thêm các URL khác mà bạn muốn cache
 ];
 
-// Sự kiện Install
+// eslint-disable-next-line no-restricted-globals
 self.addEventListener('install', event => {
     // Thực hiện việc cache các tài nguyên
     event.waitUntil(
@@ -20,7 +20,7 @@ self.addEventListener('install', event => {
     );
 });
 
-// Sự kiện Activate
+// eslint-disable-next-line no-restricted-globals
 self.addEventListener('activate', event => {
     const cacheWhitelist = [CACHE_NAME];
     event.waitUntil(
@@ -37,7 +37,7 @@ self.addEventListener('activate', event => {
     );
 });
 
-// Sự kiện Fetch
+// eslint-disable-next-line no-restricted-globals
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
