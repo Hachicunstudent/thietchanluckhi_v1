@@ -6,7 +6,7 @@
 + Quan sát được phần gốc lưỡi
 + Độ nét cao
 + Không sử dụng bộ lọc
-![Ảnh lưỡi đạt tiêu chuẩnt](/tongueImg/chupluoitieuchuan.png)
+![Ảnh lưỡi đạt tiêu chuẩnt](/tongueImg/chupluoitieuchuan.jpg)
 
 ## Các lưu ý khi chụp ảnh lưỡi
 + Luôn sử dụng chế độ lấy nét tự động trên điện thoại để đảm bảo rằng ảnh chụp lưỡi có độ nét cao nhất có thể.

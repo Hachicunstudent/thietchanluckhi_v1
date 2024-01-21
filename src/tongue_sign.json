@@ -4,19 +4,19 @@
             "đặc tính":{
                 "Bình thường":{
                     "mô tả": "Lưỡi bình thường màu đỏ nhạt",
-                    "hình ảnh": "/tongueImg/chatluoi_binhthuong.png",
+                    "hình ảnh": "/tongueImg/chatluoi_binhthuong.jpg",
                     "chẩn đoán":" "
                     
                 },
                 "Nhợt":{    
                     "mô tả": "Chất lưỡi nhợt",
-                    "hình ảnh": "/tongueImg/chatluoi_nhot_kho.png",
+                    "hình ảnh": "/tongueImg/chatluoi_nhot_kho.jpg",
                     "chẩn đoán":"Dương hư/khí hư( nhợt ướt) hoặc Huyết hư( nhợt khô)"
 
                 },
                 "Đỏ":{
                     "mô tả": "Chất lưỡi đỏ",
-                    "hình ảnh": "/tongueImg/chatluoi_do.png",
+                    "hình ảnh": "/tongueImg/chatluoi_do.jpg",
                     "chẩn đoán":"Nhiệt( Thực nhiệt hoặc Hư nhiệt). Nếu có rêu là thực nhiệt, không rêu hoặc rêu không gốc là Hư nhiệt"
                 
                 },
@@ -34,17 +34,17 @@
             "đặc tính":{
                 "Lưỡi mỏng":{
                     "mô tả": "Chiều dày của lưỡi mỏng,đây là loại lưỡi ít phổ biến",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoimong.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoimong.jpg",
                     "chẩn đoán":"Huyết hư, Âm hư"
                 },
                 "Lưỡi sưng nề":{
                     "mô tả": "Còn gọi là lưỡi bệu, chiều dày lớn, nên xem từ phía bên",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoisungne.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoisungne.jpg",
                     "chẩn đoán":"Đờm thấp tích tụ"
                 },
                 "Lưỡi mềm nhàu nát":{
                     "mô tả": "Lưỡi mềm nhão, dường như nhàu nát",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_nhaunat.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_nhaunat.jpg",
                     "chẩn đoán":"Âm hư, thiếu Tân Dịch trầm trọng"
                 },
                 "Lưỡi run":{
@@ -54,7 +54,7 @@
                 },
                 "Lưỡi vết hằn răng":{
                     "mô tả": "Còn gọi là lưỡi vỏ sò, ở rìa lưỡi có vết răng hằn lên",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_hanrang.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_hanrang.jpg",
                     "chẩn đoán":"Tỳ khí/ Tỳ dương hư mạn tính"
                 },
                 "Lưỡi động":{
@@ -64,7 +64,7 @@
                 },
                 "Lưỡi cứng":{
                     "mô tả": "Lưỡi cứng, không mềm mại, linh hoạt",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoicung.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoicung.jpg",
                     "chẩn đoán":"Nội phong"
                 },
                 "Lưỡi dài":{
@@ -74,7 +74,7 @@
                 },
                 "Lưỡi ngắn":{
                     "mô tả": "Bệnh nhân khó khăn khi đẩy lưỡi ra khỏi miệng",
-                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoingan.png",
+                    "hình ảnh": "/tongueImg/hinhdang_toanbo_luoingan.jpg",
                     "chẩn đoán":"Dưng hư nội hàn(nếu chất lưỡi nhợt ướt) hoặc Âm hư nội nhiệt(nếu chất lưỡi đỏ không rêu hoặc rêu không gốc)"
                 }
             
@@ -86,25 +86,25 @@
         "đặc tính":{
             "Rêu bình thường":{
                 "mô tả": "Rêu lưỡi bình thường màu trắng, mỏng để nhìn thấy chất lưỡi phía sau nó.Nó dày ở  gốc lưỡi, mỏng ở đầu lưỡi và không kéo dài đến các viền và cạnh của lưỡi",
-                "hình ảnh": "/tongueImg/reuluoi_binhthuong.png",
+                "hình ảnh": "/tongueImg/reuluoi_binhthuong.jpg",
                 "chẩn đoán":null
                 
             },
             "Rêu dày":{
                 "mô tả": "Lớp phủ dày che mất chất lưỡi",
-                "hình ảnh": "/tongueImg/reuluoi_day.png",
+                "hình ảnh": "/tongueImg/reuluoi_day.jpg",
                 "chẩn đoán":"Thực chứng"
                 
             },
             "Rêu mỏng":{
                 "mô tả": "Lớp phủ mỏng dễ dàng nhìn thấy chất lưỡi",
-                "hình ảnh": "/tongueImg/reuluoi_mong.png",
+                "hình ảnh": "/tongueImg/reuluoi_mong.jpg",
                 "chẩn đoán":"Hư chứng"
             
             },
             "Không rêu":{
                 "mô tả": "Lưỡi không có rêu",
-                "hình ảnh": "/tongueImg/reuluoi_khongreu.png",
+                "hình ảnh": "/tongueImg/reuluoi_khongreu.jpg",
                 "chẩn đoán":"Vị Khí suy kiệt"
                 
             },
@@ -116,14 +116,14 @@
             },
             "Không gốc":{
                 "mô tả": "Lớp phủ dường như được rải lên",
-                "hình ảnh": "/tongueImg/reuluoi_khonggoc.png",
+                "hình ảnh": "/tongueImg/reuluoi_khonggoc.jpg",
                 "chẩn đoán":"Vị khí suy kiệt"
                 
             },
             "Rêu vàng":
             {
                 "mô tả": "Lưỡi rêu vàng",
-                "hình ảnh": "/tongueImg/reuluoi_reuvang.png",
+                "hình ảnh": "/tongueImg/reuluoi_reuvang.jpg",
                 "chẩn đoán":"Nhiệt chứng"
                 
             },
@@ -137,26 +137,26 @@
             "Rêu xám":
             {
                 "mô tả":null,
-                "hình ảnh": "/tongueImg/reuluoi-xam.png",
+                "hình ảnh": "/tongueImg/reuluoi-xam.jpg",
                 "chẩn đoán":" Nhiễm độc"
                 
             },
             
             "Rêu dính":{
                 "mô tả": "Rêu dính nhờn, nhưng thô các nhủ riêng lẻ vẫn có thể nhìn thấy nhỉ",
-                "hình ảnh": "/tongueImg/reuluoidinh.png",
+                "hình ảnh": "/tongueImg/reuluoidinh.jpg",
                 "chẩn đoán":"Đờm thấp"
                 
             },
             "Rêu trơn":{
                 "mô tả": "Rêu lưỡi trơn nhờn không thể phân biệt các nhú",
-                "hình ảnh": "/tongueImg/reuluoitron.png",
+                "hình ảnh": "/tongueImg/reuluoitron.jpg",
                 "chẩn đoán":"Đờm thấp nhưng thấp chiếm ưu thế"
                 
             },
             "Rêu mốc":{
                 "mô tả": "Lớp phủ mốc trông dày, loang lổ và vụn; Nó có thể được mô tả như phô mai.",
-                "hình ảnh": "/tongueImg/reuluoimoc.png",
+                "hình ảnh": "/tongueImg/reuluoimoc.jpg",
                 "chẩn đoán":"Đờm thấp trên nền Vị âm hư hỏa vượng"
                 
             
@@ -174,13 +174,13 @@
             },
             "Khô":{
                 "mô tả": null,
-                "hình ảnh": "/tongueImg/chatluoi_nhot_kho.png",
+                "hình ảnh": "/tongueImg/chatluoi_nhot_kho.jpg",
                 "chẩn đoán":"Chứng tỏ Dương khí không vận hóa được Dịch sinh ra tích tụ dịch và đờm thấp"
                 
             },
             "Ẩm":{
                 "mô tả": "Lưỡi có màu đỏ nhạt",
-                "hình ảnh": "/tongueImg/chatluoi_nhot_uot.png",
+                "hình ảnh": "/tongueImg/chatluoi_nhot_uot.jpg",
                 "chẩn đoán":"Chứng tỏ Dương khí không vận hóa được Dịch sinh ra tích tụ dịch và đờm thấp"
                 
             }
@@ -207,13 +207,13 @@
             },
             "Đỏ":{
                 "mô tả": "Đầu lưỡi đỏ",
-                "hình ảnh": "/tongueImg/chatluoi_do_dauluoi.png",
+                "hình ảnh": "/tongueImg/chatluoi_do_dauluoi.jpg",
                 "chẩn đoán":"Tâm hỏa vượng"
             
             },
             "Tím":{
                 "mô tả": "Đầu lưỡi tím",
-                "hình ảnh": "/tongueImg/chatluoi_tim_dauluoi.png",
+                "hình ảnh": "/tongueImg/chatluoi_tim_dauluoi.jpg",
                 "chẩn đoán":"Tâm huyết ứ trệ"
             
             }
@@ -225,12 +225,12 @@
         "đặc tính":{
             "Sưng nề":{
                 "mô tả": "Sưng nề đầu lưỡi",
-                "hình ảnh": "/tongueImg/hinhdang_dauluoi_sungne.png",
+                "hình ảnh": "/tongueImg/hinhdang_dauluoi_sungne.jpg",
                 "chẩn đoán":"Tâm hỏa vượng"
             },
             "Vết nứt":{
                 "mô tả": "Vết nứt đường giữa lưỡi",
-                "hình ảnh": "/tongueImg/hinhdang_tam_vetnut.png",
+                "hình ảnh": "/tongueImg/hinhdang_tam_vetnut.jpg",
                 "chẩn đoán":"Bệnh ở Tâm "
             }},
         "type":"checkbox"
@@ -344,7 +344,7 @@
             },
             "Đỏ":{
                 "mô tả": "Vùng Phế đỏ, hoặc nốt đỏ, chấm đỏ",
-                "hình ảnh": "./tongueImg/chatluoi_do_phe.png",
+                "hình ảnh": "./tongueImg/chatluoi_do_phe.jpg",
                 "chẩn đoán":"Phế nhiệt, thực nhiệt nếu có rêu, hư nhiệt nếu không rêu hoặc rêu không gốc"
             
             },
@@ -362,12 +362,12 @@
         "đặc tính":{
             "Sưng nề":{
                 "mô tả": "Sưng nề vùng ngực- Phế",
-                "hình ảnh": "/tongueImg/hinhdang_phe_sungne.png",
+                "hình ảnh": "/tongueImg/hinhdang_phe_sungne.jpg",
                 "chẩn đoán":"Có u cục ở vùng ngực hoặc Phổi"
             },
             "Vết nứt":{
                 "mô tả": "Vết nứt đặc trưng",
-                "hình ảnh": "/tongueImg/hinhdang_phe_vetnut.png",
+                "hình ảnh": "/tongueImg/hinhdang_phe_vetnut.jpg",
                 "chẩn đoán":"Đã từng mắc bệnh hô hập nặng hoặc mạn tính"
             }},
         "type":"checkbox"
@@ -473,19 +473,19 @@
             },
             "Nhợt":{    
                 "mô tả": "Rìa lưỡi nhợt hơn so với các phần khác",
-                "hình ảnh": "/tongueImg/chatluoi_nhot_rialuoi.png",
+                "hình ảnh": "/tongueImg/chatluoi_nhot_rialuoi.jpg",
                 "chẩn đoán":"Can huyết hư"
 
             },
             "Đỏ":{
                 "mô tả": "Rìa lưỡi đỏ",
-                "hình ảnh": "/tongueImg/chatluoi_do_ria.png",
+                "hình ảnh": "/tongueImg/chatluoi_do_ria.jpg",
                 "chẩn đoán":"Can nhiệt, nếu không rêu là Hư nhiệt, nếu có rêu là Thực nhiệt"
             
             },
             "Tím":{
                 "mô tả": "Rìa lưỡi có màu tím",
-                "hình ảnh": "/tongueImg/chatluoi_tim_ria.png",
+                "hình ảnh": "/tongueImg/chatluoi_tim_ria.jpg",
                 "chẩn đoán":"Can huyết ứ trệ"
             
             }
@@ -497,7 +497,7 @@
         "đặc tính":{
             "sưng nề":{
                 "mô tả": "Sưng nề phần rìa lưỡi",
-                "hình ảnh": "/tongueImg/hinhdang_rialuoi_sungne.png",
+                "hình ảnh": "/tongueImg/hinhdang_rialuoi_sungne.jpg",
                 "chẩn đoán":"Nếu kèm theo đỏ là Can hỏa vượng, nếu nhợt là Đờm thấp tích tụ ở Can"
             },
             "Vết nứt":{
@@ -512,7 +512,7 @@
     "đặc tính":{
         "Có rêu":{
             "mô tả": "Rêu phân bố như hình",
-            "hình ảnh": "/tongueImg/reuluoi_candom.png",
+            "hình ảnh": "/tongueImg/reuluoi_candom.jpg",
             "chẩn đoán":"Bệnh lý Đởm"
             
         },
@@ -614,13 +614,13 @@
             },
             "Đỏ":{
                 "mô tả": "Trung tâm lưỡi đỏ",
-                "hình ảnh": "/tongueImg/chatluoi_do_trungtam.png",
+                "hình ảnh": "/tongueImg/chatluoi_do_trungtam.jpg",
                 "chẩn đoán":"Nếu có rêu là Vị thực nhiệt, nếu không rêu là Vị hư nhiệt"
             
             },
             "Tím":{
                 "mô tả": "Trung tâm lưỡi tím",
-                "hình ảnh": "/tongueImg/chatluoi_tim_trungtam.png",
+                "hình ảnh": "/tongueImg/chatluoi_tim_trungtam.jpg",
                 "chẩn đoán":"Vi huyết ứ"
             
             }
@@ -637,7 +637,7 @@
             },
             "Vết nứt":{
                 "mô tả": "Vết nứt không đều, vết nứt ngang, vết nứt trung tâm hoặc vết nứt ngang ở rìa",
-                "hình ảnh": "/tongueImg/hinhdang_trungtam_vetnut.png",
+                "hình ảnh": "/tongueImg/hinhdang_trungtam_vetnut.jpg",
                 "chẩn đoán":"Vị khí hư, vết nứt ngang ở rìa là Tỳ khí hư"
             }},
         "type":"checkbox"
@@ -653,7 +653,7 @@
         },
         "Không rêu":{
             "mô tả": "Lưỡi không rêu",
-            "hình ảnh": "/tongueImg/reuluoi_khongreu.png",
+            "hình ảnh": "/tongueImg/reuluoi_khongreu.jpg",
             "chẩn đoán":"Vị Khí suy kiệt"
             
         },
@@ -665,7 +665,7 @@
         },
         "Không gốc":{
             "mô tả": "Lưỡi có màu đỏ nhạt",
-            "hình ảnh": "/tongueImg/reuluoi_khonggoc.png",
+            "hình ảnh": "/tongueImg/reuluoi_khonggoc.jpg",
             "chẩn đoán":"Vị Khí suy kiệt"
             
         },
@@ -686,7 +686,7 @@
         "Rêu xám":
         {
             "mô tả": "Rêu lưỡi xám ở trung tâm",
-            "hình ảnh": "/tongueImg/reuluoi-xam.png",
+            "hình ảnh": "/tongueImg/reuluoi-xam.jpg",
             "chẩn đoán":"Nhiễm độc dạ dày"
             
         },
@@ -782,7 +782,7 @@
     "đặc tính":{
         "Có rêu":{
             "mô tả": "Gốc lưỡi có rêu hoặc rêu dày hơn các vùng khác",
-            "hình ảnh": "/tongueImg/reuluoi_gocluoi.png",
+            "hình ảnh": "/tongueImg/reuluoi_gocluoi.jpg",
             "chẩn đoán":"Thấp nhiệt hạ tiêu"
             
         },
