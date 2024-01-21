@@ -14,17 +14,3 @@ root.render(
 
 reportWebVitals();
 
-// Kiểm tra nếu Service Worker được hỗ trợ
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-            .then(registration => {
-                // Đăng ký thành công
-                console.log('Service Worker registered: ', registration);
-            })
-            .catch(registrationError => {
-                // Đăng ký thất bại
-                console.log('Service Worker registration failed: ', registrationError);
-            });
-    });
-}
