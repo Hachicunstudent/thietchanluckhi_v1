@@ -74,7 +74,7 @@ const Carousel = () => {
   {AreaImage && (
     <img
       src={AreaImage}
-      alt="Area Image"
+      alt="Area of Tongue"
       className="w-[150px] h-auto"
       onClick={() => showLargeImage(AreaImage)}
     />
@@ -82,7 +82,7 @@ const Carousel = () => {
   {contrastImage && (
     <img
       src={contrastImage}
-      alt="Contrast Image"
+      alt="Contrast"
       className="w-[150px] h-auto"
       onClick={() => showLargeImage(contrastImage)}
     />
@@ -90,7 +90,7 @@ const Carousel = () => {
   {hsvImage && (
     <img
       src={hsvImage}
-      alt="HSV Image"
+      alt="HSV"
       className="w-[150px] h-auto"
       onClick={() => showLargeImage(hsvImage)}
     />
