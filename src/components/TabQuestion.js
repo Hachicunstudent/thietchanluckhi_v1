@@ -22,7 +22,7 @@ const TabComponent = ({ jsonData }) => {
   const [modalContent, setModalContent] = useState({});
   const { register, handleSubmit, formState: { errors } } = useForm();
   const [userEmail, setUserEmail] = useState('');
-  const [structuredData, setStructuredData] = useState({});
+  const [structuredData] = useState({});
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false); // Thêm trạng thái isLoading
 

@@ -1,14 +1,13 @@
 // DisplayData.js
 
 import React, { useEffect, useState } from 'react';
-import { getFirestore, doc, getDoc, collection } from 'firebase/firestore';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth, firestore } from '../firebase';
+import { auth } from '../firebase';
 import processAndQueryData from '../js/utils'; // Import hàm xử lý dữ liệu từ file utils
 import jsonData from '../tongue_sign.json';
 
 const DisplayData = () => {
-  const [data, setData] = useState([]);
   const [queryResults, setQueryResults] = useState({});
   const [patientInfo, setPatientInfo] = useState(null);
 
@@ -70,10 +69,6 @@ const DisplayData = () => {
 
   const renderResults = (results) => {
     // Lấy ảnh từ session storage
-    const contrastShapesImage = sessionStorage.getItem("contrastShapesImage");
-    const hsvImage = sessionStorage.getItem("hsvImage");
-    const detectAreaImage = sessionStorage.getItem("detectAreaImage");
-    const segmentedImage = sessionStorage.getItem("segmentedImage");
     const croppedImage = sessionStorage.getItem("croppedImage");
 
     // Thêm đoạn này mới
